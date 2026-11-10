@@ -1,0 +1,41 @@
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache and test files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+frontend/dist/
+
+# Uploaded documents and local vector databases
+ai-service/storage/uploads/
+ai-service/storage/usearch/
+ai-service/storage/faiss/
+
+# Logs
+*.log
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Local test files and obsolete backend copies
+/backend/server.js
+/backend/src/aiService.js
+/backend/test-db.js
+/backend/test_upload.txt

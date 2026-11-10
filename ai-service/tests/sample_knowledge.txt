@@ -1,0 +1,23 @@
+Conversational RAG AI Knowledge Assistant
+
+This project is an AI-powered knowledge assistant that uses
+Retrieval-Augmented Generation (RAG) to answer questions
+based on uploaded documents.
+
+The backend is built using Python and FastAPI.
+
+Google Gemini is used to generate text embeddings and
+produce answers based on retrieved document content.
+
+USearch is used as the vector database for storing and
+searching document embeddings.
+
+The application supports PDF, DOCX, and TXT documents.
+
+The document processing pipeline includes text extraction,
+text chunking, embedding generation, vector storage,
+similarity search, and answer generation.
+
+The frontend is developed using React and Vite.
+The Node.js backend uses Express.
+MySQL stores application data and conversation history.

@@ -1,0 +1,20 @@
+﻿# Backend API
+fastapi
+uvicorn
+python-multipart
+
+# Gemini AI
+google-genai
+python-dotenv
+
+# Document processing
+pymupdf
+python-docx
+
+# Vector search and numerical operations
+numpy
+usearch
+
+# Testing
+pytest
+httpx

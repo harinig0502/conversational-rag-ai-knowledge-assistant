@@ -1,0 +1,7 @@
+﻿Conversational RAG System
+
+Retrieval-Augmented Generation (RAG) combines information retrieval with generative AI.
+
+The system reads uploaded documents, extracts text, divides the content into smaller chunks, and retrieves relevant information to answer user questions.
+
+Google Gemini is used to generate answers based on the retrieved content.
